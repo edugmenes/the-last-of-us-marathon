@@ -1,0 +1,60 @@
+/* EXPLICAÇÃO JÁ LINKANDO COM O TESTE.HTML */
+
+/* Seletores: */
+
+    /* seletor por tag */
+    h1 {
+        color: #bd0d0d; 
+            /* boa pratica escrever cores pelo seu correspondete hexadecimal */
+        font-size: 30px;
+            /* tamanho da fonte */
+        font-weight: bold;
+            /* fonte em negrito */
+    }
+
+    /* seletor por classe, usa ponto . */
+    .meuheader {
+        border: 1px solid red;
+            /* define borda */
+        background-color: beige;
+            /* cor de fundo */
+    }
+
+    .lucida{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* define fonte */
+        color: blue;
+        font-size: 30px;
+    }
+
+    /* seletor por id, usa # */
+    #primeiro {
+        color: red;
+    }
+
+/* Sobreposição: id > class > tag */
+
+
+
+.lista {
+    border: 1px solid red;
+    height: 50vh;            
+        /* altura 50vh = 50% da tela */
+    width: 60%;
+        /* largura de 60% do PAI */
+    display: flex;
+        /* permite movimentar livremente os elementos selecionados.
+        Sempre aplicar no PAI dos elementos que deseja movimentar */
+    align-items: center;
+        /* alinha os elementos ao centro do flex (movimento na vertical) */
+    justify-content: space-around;
+        /* alinha os elementos ao centro do flex (movimento na horizontal) */
+
+    /*
+    padding: 60px;
+        moldura
+    margin-top: 100px;
+        margem 
+    */
+}
+    
